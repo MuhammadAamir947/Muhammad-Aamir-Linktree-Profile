@@ -1,0 +1,286 @@
+*{
+  box-sizing: border-box;
+}
+
+html,body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  padding: 20px;
+  color: white;
+  background-color: rgb(100, 99, 99);
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img{
+  border-radius: 50%;
+  width: 125px;
+}
+
+.profile-name{
+  margin-bottom: 20px;
+}
+
+.link{
+  background-color: #f0efeb;
+  color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.link:hover{
+  transform: scale(1.1);
+  transition: 0.25s;
+  background-color: white;
+  color: black;
+}
+
+.link:active{
+  background-color: black;
+  color: white;
+}
+
+.link-icon{
+  width: 50px;
+  position: absolute;
+  left: 10px;
+}
+
+/* instagram */
+.instagram{
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.instagram:hover{
+  background-image: linear-gradient(to right, #f2791d95,#f6d371a3,#cf28739c,#922eb9a8,#4d58ce97);
+  transform: scale(1.1);
+  transition: 0.25s;
+  
+  color: black;
+}
+
+.instagram:active{
+  background-image: linear-gradient(to right, #f27a1d,#f6d371,#cf2872,#912eb9,#4d58ce);
+  color: white;
+}
+
+
+/* twitter */
+.twitter{
+  background-color: #f0efeb;
+  color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.twitter:hover{
+  transform: scale(1.1);
+  transition: 0.25s;
+  background-color: #59c9fd;
+  color: black;
+}
+
+.twitter:active{
+  background-color: #03a9f4;
+  color: white;
+}
+
+
+/* facebook */
+.facebook{
+  background-color: #f0efeb;
+  color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.facebook:hover{
+  transform: scale(1.1);
+  transition: 0.25s;
+  background-color: #039be5;
+  color: black;
+}
+
+.facebook:active{
+  background-color: rgb(0, 83, 116);
+  color: white;
+}
+
+/* github */
+.github{
+  background-color: #f0efeb;
+  color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.github:hover{
+  transform: scale(1.1);
+  transition: 0.25s;
+  background-color: #1afe4f;
+  color: black;
+}
+
+.github:active{
+  background-color: #006117;
+  color: white;
+}
+
+/* linkedin */
+.linkedin{
+  background-color: #f0efeb;
+  color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.linkedin:hover{
+  transform: scale(1.1);
+  transition: 0.25s;
+  background-color: #0078d4;
+  color: black;
+}
+
+.linkedin:active{
+  background-color: #014376;
+  color: white;
+}
+
+
+
+/* snapchat */
+.snapchat{
+  background-color: #f0efeb;
+  color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.snapchat:hover{
+  transform: scale(1.1);
+  transition: 0.25s;
+  background-color: #FFEE58;
+  color: black;
+}
+
+.snapchat:active{
+  background-color: #ffe600;
+  color: white;
+}
+
+
+/* bye */
+.bye{
+  background-color: #f0efeb;
+  color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  height: 50px;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.bye:hover{
+  transform: scale(1.1);
+  transition: 0.25s;
+  background-color: aqua;
+  color: black;
+}
+
+.bye:active{
+  background-color: green;
+  color: white;
+}
+
+.bye-icon{
+  width: 50px;
+  position: absolute;
+  left: 10px;
+}
+
+
+.bye-icon{
+  width: 30px;
+  position: absolute;
+  left: 10px;
+}
